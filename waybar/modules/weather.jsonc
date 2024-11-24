@@ -1,0 +1,11 @@
+"custom/weather": {
+	"format": "<span size='120%'>{}</span>",
+	"format-alt": "{alt}: {}",
+	"format-alt-click": "click",
+	"interval": 3600,
+	"return-type": "json",
+	//"exec": "$HOME/.config/hypr/UserScripts/Weather.sh",
+	"exec": "$HOME/.local/share/bin/Weather.py",
+	"exec-if": "ping wttr.in -c1",
+	"tooltip": true,
+},

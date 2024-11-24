@@ -1,0 +1,23 @@
+"custom/swaync": {
+      "tooltip": true,
+      "tooltip-format": "Left Click: Launch Notification Center\nRight Click: Do not Disturb",
+      "format": "{icon}",
+      "format-icons": {
+        "notification": "<span size='115%'><span foreground='red'><small><sup>⬤</sup></small></span></span>",
+        "none": "<span size='115%'></span>",
+        "dnd-notification": "<span size='115%'> <span foreground='red'><small><sup>⬤</sup></small></span></span>",
+        "dnd-none": "<span size='115%'></span>",
+        "inhibited-notification": "<span size='115%'><span foreground='red'><sup></sup></span>",
+		    "inhibited-none": "<span size='115%'></span>",
+		    "dnd-inhibited-notification": "<span size='115%'> <span foreground='red'><sup></sup></span>",
+		    "dnd-inhibited-none": "<span size='115%'> </span>"
+    },
+
+      "return-type": "json",
+      "exec-if": "which swaync-client",
+      "exec": "swaync-client -swb",
+      "on-click": "sleep 0.1 && swaync-client -t -sw",
+      "on-click-right": "sleep 0.1 && swaync-client -d -sw",
+      "escape": true
+    },
+

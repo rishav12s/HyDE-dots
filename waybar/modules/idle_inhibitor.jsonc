@@ -1,0 +1,9 @@
+    "idle_inhibitor": {
+        "format": "<span size='155%'>{icon}</span>",
+        "rotate": ${r_deg},
+        "format-icons": {
+            "activated": "󰥔 ",
+            "deactivated": "󱑎 "
+        }
+    },
+

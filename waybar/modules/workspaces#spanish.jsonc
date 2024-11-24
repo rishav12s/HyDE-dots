@@ -1,0 +1,29 @@
+// for Spanish
+"hyprland/workspaces#spanish": {
+	"active-only":false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"persistent-workspaces":{
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": []
+	},
+		"format-icons": {
+		"1": "Uno",
+		"2": "Due",
+		"3": "Tre",
+		"4": "Quattro",
+		"5": "Cinque",
+		"6":"Sei",
+		"7":"Sette",
+		"8":"Otto",
+		"9":"Nove",
+		"10":"Dieci"
+	}	
+},
